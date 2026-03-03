@@ -1,0 +1,127 @@
+{
+    "meta": {
+        "lang": "en",
+        "title": "tetra-tools.com — Assistive Devices for Tetraplegics",
+        "description": "Specialized assistive devices for people with tetraplegia: catheter insertion aid, typing aid, Tetra tongs, and more."
+    },
+    "skipToContent": "Skip to content",
+    "header": {
+        "logoAlt": "tetra-tools Logo"
+    },
+    "hero": {
+        "label": "Assistive Devices for Tetraplegics",
+        "title": "More Independence",
+        "titleAccent": "in Daily Life.",
+        "description": "We develop and manufacture practical assistive devices that give people with tetraplegia greater independence in everyday life — from catheter aids to the Tetra tongs.",
+        "cta": "Get in Touch",
+        "ctaSecondary": "View Products"
+    },
+    "intro": {
+        "title": "What We Offer",
+        "text1": "Our products are specifically designed for the needs of people with tetraplegia. Each device is crafted with the goal of making daily life easier and more independent.",
+        "text2": "All devices are carefully manufactured and can be individually customized. If you're interested, please contact us via email.",
+        "features": [
+            {
+                "icon": "💉",
+                "title": "Catheter Insertion Aid",
+                "description": "Enables independent catheterization with a safe, ergonomic grip."
+            },
+            {
+                "icon": "⌨️",
+                "title": "Typing Aid",
+                "description": "Allows typing on standard keyboards for people with limited hand function."
+            },
+            {
+                "icon": "🔧",
+                "title": "Tetra Tongs",
+                "description": "Patented gripping aid for daily use — versatile and robust."
+            },
+            {
+                "icon": "🪝",
+                "title": "Catheter Hooks",
+                "description": "Various hook solutions to make catheterization safe and comfortable."
+            }
+        ]
+    },
+    "products": {
+        "title": "Our Products",
+        "viewDetails": "View Details",
+        "items": [
+            {
+                "id": "stechhilfe",
+                "title": "Catheter Insertion Aid",
+                "shortDescription": "Ergonomic aid for independent catheter insertion.",
+                "description": "The catheter insertion aid was specifically developed for people with limited hand function. It enables independent and safe catheterization through an ergonomically shaped grip and a well-designed guide. The device is easy to clean and made from durable, medically safe materials.",
+                "features": [
+                    "Ergonomic grip",
+                    "Easy to clean",
+                    "Medically safe",
+                    "Individually adjustable"
+                ]
+            },
+            {
+                "id": "tipphilfe",
+                "title": "Keyboard Typing Aid",
+                "shortDescription": "Universal typing aid for computer and laptop keyboards.",
+                "description": "The typing aid enables people with tetraplegia to type independently on a standard keyboard. The special mounting securely attaches the device to the hand and allows precise keystrokes. Suitable for all common keyboards and laptops.",
+                "features": [
+                    "Universal compatibility",
+                    "Secure attachment",
+                    "Precise control",
+                    "Lightweight"
+                ]
+            },
+            {
+                "id": "tetratzange",
+                "title": "Tetra Tongs",
+                "shortDescription": "Patented gripping aid — versatile for everyday use.",
+                "description": "The Tetra Tongs are a patented gripping aid specifically developed for the needs of people with tetraplegia. They enable gripping, holding, and manipulating various objects in daily life. From the kitchen to the office — the Tetra Tongs are a versatile companion.",
+                "badge": "Patented",
+                "features": [
+                    "Patented design",
+                    "Versatile use",
+                    "Robust construction",
+                    "Ergonomic shape"
+                ]
+            },
+            {
+                "id": "katheterhaken",
+                "title": "Catheter Hooks",
+                "shortDescription": "Various hook variants to facilitate catheterization.",
+                "description": "Our catheter hook series offers various specialized hook solutions that make catheterization easier. Each variant is optimized for different applications and is made from high-quality, hygienic materials. The hooks can be individually adapted to the user's needs.",
+                "features": [
+                    "Multiple variants",
+                    "Hygienic materials",
+                    "Individually adjustable",
+                    "Easy handling"
+                ]
+            }
+        ]
+    },
+    "productDetail": {
+        "back": "← Back to Overview",
+        "features": "Features",
+        "contact": "Request Product",
+        "notFound": "Product not found.",
+        "backHome": "Back to Home"
+    },
+    "contact": {
+        "title": "Interested?",
+        "description": "Contact us via email to learn more about our products or to make an inquiry. We're happy to advise you individually.",
+        "cta": "Send Email",
+        "emailSubject": "Inquiry via tetra-tools.com"
+    },
+    "footer": {
+        "copyright": "© 2025 tetra-tools.com — All rights reserved.",
+        "impressum": "Legal Notice"
+    },
+    "impressum": {
+        "title": "Legal Notice",
+        "responsible": "Information according to § 5 TMG",
+        "responsibleContent": "[Name / Company]\n[Street No.]\n[ZIP City]\n[Country]",
+        "contactTitle": "Contact",
+        "contactContent": "Email: request@tetra-tools.com",
+        "disclaimer": "Disclaimer",
+        "disclaimerContent": "The contents of this website are created with the greatest possible care. However, the provider assumes no liability for the correctness, completeness, and timeliness of the provided content."
+    }
+}

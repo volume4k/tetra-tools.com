@@ -1,0 +1,127 @@
+{
+    "meta": {
+        "lang": "de",
+        "title": "tetra-tools.com — Hilfsmittel für Tetraplegiker",
+        "description": "Spezialisierte Hilfsmittel für querschnittsgelähmte Personen: Stechhilfe, Tipphilfe, Tetratzange und mehr."
+    },
+    "skipToContent": "Zum Inhalt springen",
+    "header": {
+        "logoAlt": "tetra-tools Logo"
+    },
+    "hero": {
+        "label": "Hilfsmittel für Tetraplegiker",
+        "title": "Mehr Selbstständigkeit",
+        "titleAccent": "im Alltag.",
+        "description": "Wir entwickeln und fertigen praktische Hilfsmittel, die querschnittsgelähmten Personen mehr Unabhängigkeit im täglichen Leben ermöglichen — von der Stechhilfe bis zur Tetratzange.",
+        "cta": "Jetzt anfragen",
+        "ctaSecondary": "Produkte ansehen"
+    },
+    "intro": {
+        "title": "Was wir anbieten",
+        "text1": "Unsere Produkte sind speziell für die Bedürfnisse von Menschen mit Tetraplegie entwickelt. Jedes Hilfsmittel wird mit dem Ziel gefertigt, den Alltag einfacher und selbstständiger zu gestalten.",
+        "text2": "Alle Geräte werden sorgfältig hergestellt und können individuell angepasst werden. Bei Interesse kontaktieren Sie uns gerne per E-Mail.",
+        "features": [
+            {
+                "icon": "💉",
+                "title": "Stechhilfe",
+                "description": "Erleichtert das eigenständige Katheterisieren mit sicherem, ergonomischem Griff."
+            },
+            {
+                "icon": "⌨️",
+                "title": "Tipphilfe",
+                "description": "Ermöglicht das Tippen auf der Tastatur für Personen mit eingeschränkter Handfunktion."
+            },
+            {
+                "icon": "🔧",
+                "title": "Tetratzange",
+                "description": "Patentierte Greifhilfe für den täglichen Gebrauch — vielseitig und robust."
+            },
+            {
+                "icon": "🪝",
+                "title": "Katheterhaken",
+                "description": "Verschiedene Haken-Lösungen, um das Katheterisieren sicher und komfortabel zu machen."
+            }
+        ]
+    },
+    "products": {
+        "title": "Unsere Produkte",
+        "viewDetails": "Details ansehen",
+        "items": [
+            {
+                "id": "stechhilfe",
+                "title": "Stechhilfe für Katheter",
+                "shortDescription": "Ergonomische Hilfe für das eigenständige Setzen von Kathetern.",
+                "description": "Die Stechhilfe wurde speziell für Personen mit eingeschränkter Handfunktion entwickelt. Sie ermöglicht das eigenständige und sichere Katheterisieren durch einen ergonomisch geformten Griff und eine durchdachte Führung. Das Gerät ist einfach zu reinigen und aus langlebigen, medizinisch unbedenklichen Materialien gefertigt.",
+                "features": [
+                    "Ergonomischer Griff",
+                    "Einfache Reinigung",
+                    "Medizinisch unbedenklich",
+                    "Individuell anpassbar"
+                ]
+            },
+            {
+                "id": "tipphilfe",
+                "title": "Tipphilfe für Tastatur",
+                "shortDescription": "Universelle Tipphilfe für Computer- und Laptop-Tastaturen.",
+                "description": "Die Tipphilfe ermöglicht es Personen mit Tetraplegie, eigenständig auf einer Standard-Tastatur zu tippen. Durch die spezielle Halterung wird das Gerät sicher an der Hand befestigt und ermöglicht präzise Tastenanschläge. Geeignet für alle gängigen Tastaturen und Laptops.",
+                "features": [
+                    "Universell einsetzbar",
+                    "Sichere Befestigung",
+                    "Präzise Steuerung",
+                    "Leichtgewichtig"
+                ]
+            },
+            {
+                "id": "tetratzange",
+                "title": "Tetratzange",
+                "shortDescription": "Patentierte Greifhilfe — vielseitig einsetzbar im Alltag.",
+                "description": "Die Tetratzange ist eine patentierte Greifhilfe, die speziell für die Bedürfnisse von Tetraplegikern entwickelt wurde. Sie ermöglicht das Greifen, Halten und Manipulieren verschiedenster Gegenstände im Alltag. Von der Küche bis zum Büro — die Tetratzange ist ein vielseitiger Begleiter.",
+                "badge": "Patentiert",
+                "features": [
+                    "Patentiertes Design",
+                    "Vielseitig einsetzbar",
+                    "Robuste Konstruktion",
+                    "Ergonomische Form"
+                ]
+            },
+            {
+                "id": "katheterhaken",
+                "title": "Katheterhaken",
+                "shortDescription": "Verschiedene Haken-Varianten zur Erleichterung des Katheterisierens.",
+                "description": "Unsere Katheterhaken-Serie bietet verschiedene spezialisierte Haken-Lösungen, die das Katheterisieren erleichtern. Jede Variante ist für unterschiedliche Anwendungen optimiert und wird aus hochwertigen, hygienischen Materialien gefertigt. Die Haken können individuell an die Bedürfnisse des Nutzers angepasst werden.",
+                "features": [
+                    "Mehrere Varianten",
+                    "Hygienische Materialien",
+                    "Individuell anpassbar",
+                    "Einfache Handhabung"
+                ]
+            }
+        ]
+    },
+    "productDetail": {
+        "back": "← Zurück zur Übersicht",
+        "features": "Eigenschaften",
+        "contact": "Produkt anfragen",
+        "notFound": "Produkt nicht gefunden.",
+        "backHome": "Zurück zur Startseite"
+    },
+    "contact": {
+        "title": "Interesse geweckt?",
+        "description": "Kontaktieren Sie uns per E-Mail, um mehr über unsere Produkte zu erfahren oder eine Anfrage zu stellen. Wir beraten Sie gerne individuell.",
+        "cta": "E-Mail schreiben",
+        "emailSubject": "Anfrage über tetra-tools.com"
+    },
+    "footer": {
+        "copyright": "© 2025 tetra-tools.com — Alle Rechte vorbehalten.",
+        "impressum": "Impressum"
+    },
+    "impressum": {
+        "title": "Impressum",
+        "responsible": "Angaben gemäß § 5 TMG",
+        "responsibleContent": "[Name / Firma]\n[Straße Nr.]\n[PLZ Ort]\n[Land]",
+        "contactTitle": "Kontakt",
+        "contactContent": "E-Mail: request@tetra-tools.com",
+        "disclaimer": "Haftungsausschluss",
+        "disclaimerContent": "Die Inhalte dieser Website werden mit größtmöglicher Sorgfalt erstellt. Der Anbieter übernimmt jedoch keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Inhalte."
+    }
+}
