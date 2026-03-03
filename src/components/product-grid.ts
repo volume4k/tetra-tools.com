@@ -3,7 +3,7 @@ import { navigate } from '../router.ts';
 
 /** Placeholder color patterns for products (no external images needed) */
 const productPatterns: Record<string, { bg: string; label: string }> = {
-  steckhilfe: { bg: '#E8D5C4', label: '💉' },
+  steckhilfe: { bg: '#E8D5C4', label: '📍' },
   tipphilfe: { bg: '#D5E0D0', label: '⌨️' },
   tetratzange: { bg: '#D0D8E0', label: '🔧' },
   katheterhaken: { bg: '#E0D5D0', label: '🪝' },
