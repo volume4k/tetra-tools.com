@@ -2,18 +2,18 @@ import { t } from '../i18n/i18n.ts';
 
 /** Placeholder color patterns for products */
 const productPatterns: Record<string, { bg: string; label: string }> = {
-    stechhilfe: { bg: '#E8D5C4', label: '💉' },
-    tipphilfe: { bg: '#D5E0D0', label: '⌨️' },
-    tetratzange: { bg: '#D0D8E0', label: '🔧' },
-    katheterhaken: { bg: '#E0D5D0', label: '🪝' },
+  steckhilfe: { bg: '#E8D5C4', label: '💉' },
+  tipphilfe: { bg: '#D5E0D0', label: '⌨️' },
+  tetratzange: { bg: '#D0D8E0', label: '🔧' },
+  katheterhaken: { bg: '#E0D5D0', label: '🪝' },
 };
 
 export function renderProductDetail(productId: string): string {
-    const tr = t();
-    const product = tr.products.items.find((p) => p.id === productId);
+  const tr = t();
+  const product = tr.products.items.find((p) => p.id === productId);
 
-    if (!product) {
-        return `
+  if (!product) {
+    return `
       <section class="product-detail">
         <div class="container">
           <p>${tr.productDetail.notFound}</p>
@@ -21,18 +21,18 @@ export function renderProductDetail(productId: string): string {
         </div>
       </section>
     `;
-    }
+  }
 
-    const pattern = productPatterns[productId] || { bg: '#DDD', label: '?' };
-    const badge = 'badge' in product && product.badge
-        ? `<span class="product-detail-badge">${product.badge}</span>`
-        : '';
+  const pattern = productPatterns[productId] || { bg: '#DDD', label: '?' };
+  const badge = 'badge' in product && product.badge
+    ? `<span class="product-detail-badge">${product.badge}</span>`
+    : '';
 
-    const featuresList = product.features
-        .map((f) => `<li>✓ ${f}</li>`)
-        .join('');
+  const featuresList = product.features
+    .map((f) => `<li>✓ ${f}</li>`)
+    .join('');
 
-    return `
+  return `
     <section class="product-detail" aria-labelledby="product-detail-title">
       <div class="container">
         <a href="#" class="product-detail-back" id="product-back">${tr.productDetail.back}</a>

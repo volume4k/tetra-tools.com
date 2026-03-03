@@ -3,15 +3,15 @@ import { navigate } from '../router.ts';
 
 /** Placeholder color patterns for products (no external images needed) */
 const productPatterns: Record<string, { bg: string; label: string }> = {
-    stechhilfe: { bg: '#E8D5C4', label: '💉' },
-    tipphilfe: { bg: '#D5E0D0', label: '⌨️' },
-    tetratzange: { bg: '#D0D8E0', label: '🔧' },
-    katheterhaken: { bg: '#E0D5D0', label: '🪝' },
+  steckhilfe: { bg: '#E8D5C4', label: '💉' },
+  tipphilfe: { bg: '#D5E0D0', label: '⌨️' },
+  tetratzange: { bg: '#D0D8E0', label: '🔧' },
+  katheterhaken: { bg: '#E0D5D0', label: '🪝' },
 };
 
 function productPlaceholder(id: string): string {
-    const p = productPatterns[id] || { bg: '#DDD', label: '?' };
-    return `
+  const p = productPatterns[id] || { bg: '#DDD', label: '?' };
+  return `
     <div class="product-card-image" style="background: ${p.bg}; display: flex; align-items: center; justify-content: center; font-size: 3rem;" aria-hidden="true">
       ${p.label}
     </div>
@@ -19,11 +19,11 @@ function productPlaceholder(id: string): string {
 }
 
 export function renderProductGrid(): string {
-    const tr = t();
+  const tr = t();
 
-    const cards = tr.products.items
-        .map(
-            (item) => `
+  const cards = tr.products.items
+    .map(
+      (item) => `
       <a href="#product/${item.id}" class="product-card" aria-label="${item.title}" data-product-id="${item.id}">
         ${productPlaceholder(item.id)}
         <div class="product-card-body">
@@ -36,10 +36,10 @@ export function renderProductGrid(): string {
         </div>
       </a>
     `
-        )
-        .join('');
+    )
+    .join('');
 
-    return `
+  return `
     <section class="products section--bordered" id="products-section" aria-labelledby="products-title">
       <div class="container">
         <h2 id="products-title">${tr.products.title}</h2>
@@ -52,11 +52,11 @@ export function renderProductGrid(): string {
 }
 
 export function bindProductGridEvents(): void {
-    document.querySelectorAll('.product-card').forEach((card) => {
-        card.addEventListener('click', (e) => {
-            e.preventDefault();
-            const id = (card as HTMLElement).dataset.productId;
-            if (id) navigate(`product/${id}`);
-        });
+  document.querySelectorAll('.product-card').forEach((card) => {
+    card.addEventListener('click', (e) => {
+      e.preventDefault();
+      const id = (card as HTMLElement).dataset.productId;
+      if (id) navigate(`product/${id}`);
     });
+  });
 }
