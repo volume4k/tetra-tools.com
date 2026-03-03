@@ -17,29 +17,29 @@
         "ctaSecondary": "View Products"
     },
     "intro": {
-        "title": "What We Offer",
-        "text1": "Our products are specifically designed for the needs of people with tetraplegia. Each device is crafted with the goal of making daily life easier and more independent.",
-        "text2": "All devices are carefully manufactured and can be individually customized. If you're interested, please contact us via email.",
+        "title": "Why tetra-tools?",
+        "text1": "Our assistive devices are born from lived experience. As people with tetraplegia ourselves, we know what truly matters in daily life — and we build solutions that work.",
+        "text2": "All products are manufactured in Germany and can be individually customized. If you're interested, please contact us via email.",
         "features": [
             {
-                "icon": "💉",
-                "title": "Catheter Insertion Aid",
-                "description": "Enables independent catheterization with a safe, ergonomic grip."
+                "icon": "♿",
+                "title": "By Tetraplegics, for Tetraplegics",
+                "description": "Developed from lived experience — we know the challenges of everyday life."
             },
             {
-                "icon": "⌨️",
-                "title": "Typing Aid",
-                "description": "Allows typing on standard keyboards for people with limited hand function."
+                "icon": "🇩🇪",
+                "title": "Made in Germany",
+                "description": "All products are carefully manufactured in Germany."
+            },
+            {
+                "icon": "📜",
+                "title": "Patented Technologies",
+                "description": "Our own patents protect our innovative solutions."
             },
             {
                 "icon": "🔧",
-                "title": "Tetra Tongs",
-                "description": "Patented gripping aid for daily use — versatile and robust."
-            },
-            {
-                "icon": "🪝",
-                "title": "Catheter Hooks",
-                "description": "Various hook solutions to make catheterization safe and comfortable."
+                "title": "Individual Customization",
+                "description": "Every device can be adapted to personal needs."
             }
         ]
     },
@@ -112,7 +112,7 @@
         "emailSubject": "Inquiry via tetra-tools.com"
     },
     "footer": {
-        "copyright": "© 2025 tetra-tools.com — All rights reserved.",
+        "copyright": "© 2026 tetra-tools.com — All rights reserved.",
         "impressum": "Legal Notice"
     },
     "impressum": {

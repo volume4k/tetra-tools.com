@@ -17,29 +17,29 @@
         "ctaSecondary": "Produkte ansehen"
     },
     "intro": {
-        "title": "Was wir anbieten",
-        "text1": "Unsere Produkte sind speziell für die Bedürfnisse von Menschen mit Tetraplegie entwickelt. Jedes Hilfsmittel wird mit dem Ziel gefertigt, den Alltag einfacher und selbstständiger zu gestalten.",
-        "text2": "Alle Geräte werden sorgfältig hergestellt und können individuell angepasst werden. Bei Interesse kontaktieren Sie uns gerne per E-Mail.",
+        "title": "Warum tetra-tools?",
+        "text1": "Unsere Hilfsmittel entstehen aus eigener Erfahrung. Als Betroffene wissen wir, worauf es im Alltag wirklich ankommt — und entwickeln Lösungen, die funktionieren.",
+        "text2": "Alle Produkte werden in Deutschland gefertigt und können individuell angepasst werden. Bei Interesse kontaktieren Sie uns gerne per E-Mail.",
         "features": [
             {
-                "icon": "💉",
-                "title": "Stechhilfe",
-                "description": "Erleichtert das eigenständige Katheterisieren mit sicherem, ergonomischem Griff."
+                "icon": "♿",
+                "title": "Von Tetraplegikern für Tetraplegiker",
+                "description": "Entwickelt aus eigener Erfahrung — wir kennen die Herausforderungen des Alltags."
             },
             {
-                "icon": "⌨️",
-                "title": "Tipphilfe",
-                "description": "Ermöglicht das Tippen auf der Tastatur für Personen mit eingeschränkter Handfunktion."
+                "icon": "🇩🇪",
+                "title": "Gefertigt in Deutschland",
+                "description": "Alle Produkte werden sorgfältig in Deutschland hergestellt."
+            },
+            {
+                "icon": "📜",
+                "title": "Patentierte Technologien",
+                "description": "Eigene Patente sichern unsere innovativen Lösungen."
             },
             {
                 "icon": "🔧",
-                "title": "Tetratzange",
-                "description": "Patentierte Greifhilfe für den täglichen Gebrauch — vielseitig und robust."
-            },
-            {
-                "icon": "🪝",
-                "title": "Katheterhaken",
-                "description": "Verschiedene Haken-Lösungen, um das Katheterisieren sicher und komfortabel zu machen."
+                "title": "Individuelle Anpassung",
+                "description": "Jedes Hilfsmittel kann an persönliche Bedürfnisse angepasst werden."
             }
         ]
     },
@@ -112,7 +112,7 @@
         "emailSubject": "Anfrage über tetra-tools.com"
     },
     "footer": {
-        "copyright": "© 2025 tetra-tools.com — Alle Rechte vorbehalten.",
+        "copyright": "© 2026 tetra-tools.com — Alle Rechte vorbehalten.",
         "impressum": "Impressum"
     },
     "impressum": {
