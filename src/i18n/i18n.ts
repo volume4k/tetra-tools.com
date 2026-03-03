@@ -22,6 +22,13 @@ function detectLanguage(): Lang {
 export function initI18n(): Lang {
     currentLang = detectLanguage();
     document.documentElement.lang = currentLang;
+
+    // Set title and meta description for detected language
+    const tr = translations[currentLang];
+    document.title = tr.meta.title;
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', tr.meta.description);
+
     return currentLang;
 }
 
