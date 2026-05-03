@@ -8,7 +8,7 @@ import type { Route } from './router.ts';
 import { renderHeader, bindHeaderEvents } from './components/header.ts';
 import { renderFooter } from './components/footer.ts';
 import { renderHome, bindHomeEvents } from './pages/home.ts';
-import { renderProductDetail } from './pages/product-detail.ts';
+import { renderProductDetail, bindProductDetailEvents } from './pages/product-detail.ts';
 import { renderImpressum } from './pages/impressum.ts';
 
 // Initialize i18n (auto-detect browser language)
@@ -17,6 +17,8 @@ initI18n();
 const headerEl = document.getElementById('site-header')!;
 const mainEl = document.getElementById('main-content')!;
 const footerEl = document.getElementById('site-footer')!;
+
+let previousRoute: Route | null = null;
 
 /** Render the full page for a given route */
 function renderPage(route: Route, param?: string): void {
@@ -36,11 +38,32 @@ function renderPage(route: Route, param?: string): void {
       break;
     case 'product':
       mainEl.innerHTML = renderProductDetail(param || '');
+      bindProductDetailEvents();
       break;
     case 'impressum':
       mainEl.innerHTML = renderImpressum();
       break;
   }
+
+  // Scroll behavior based on route
+  window.requestAnimationFrame(() => {
+    if (route === 'product') {
+      // Product detail: scroll to top immediately
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    } else if (route === 'home' && previousRoute === 'product') {
+      // Returning from product detail to home: scroll to products section
+      // Use another RAF to ensure DOM is fully updated
+      window.requestAnimationFrame(() => {
+        document.getElementById('products-section')?.scrollIntoView({ behavior: 'smooth' });
+      });
+    } else {
+      // Other cases: scroll to top smoothly
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  });
+
+  // Track current route as previous for next navigation
+  previousRoute = route;
 }
 
 // Set up router

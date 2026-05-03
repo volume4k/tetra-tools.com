@@ -1,10 +1,20 @@
 import { t } from '../i18n/i18n.ts';
+import { navigate } from '../router.ts';
 
 /** Placeholder color patterns for products */
 const productPatterns: Record<string, { bg: string; label: string }> = {
-  steckhilfe: { bg: '#E8D5C4', label: '📍' },
-  tipphilfe: { bg: '#D5E0D0', label: '⌨️' },
-  tetratzange: { bg: '#D0D8E0', label: '🔧' },
+  steckhilfe: {
+    bg: '#E8D5C4',
+    label: '<img src="/steckhilfe.jpg" alt="Steckhilfe" style="width: 100%; height: 100%; object-fit: cover;" />',
+  },
+  tipphilfe: {
+    bg: '#D5E0D0',
+    label: '<img src="/tipphilfe.jpg" alt="Tipphilfe" style="width: 100%; height: 100%; object-fit: cover;" />',
+  },
+  tetrazange: {
+    bg: '#D0D8E0',
+    label: '<img src="/greifzange.jpg" alt="Tetra Zange" style="width: 100%; height: 100%; object-fit: cover;" />',
+  },
   katheterhaken: { bg: '#E0D5D0', label: '🪝' },
 };
 
@@ -61,4 +71,11 @@ export function renderProductDetail(productId: string): string {
       </div>
     </section>
   `;
+}
+
+export function bindProductDetailEvents(): void {
+  document.getElementById('product-back')?.addEventListener('click', (e) => {
+    e.preventDefault();
+    navigate('');
+  });
 }

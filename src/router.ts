@@ -32,7 +32,9 @@ export function initRouter(fn: RouteHandler): void {
     window.addEventListener('hashchange', () => {
         const state = parseHash();
         handler?.(state);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.requestAnimationFrame(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
     });
     // Initial route
     handler(parseHash());

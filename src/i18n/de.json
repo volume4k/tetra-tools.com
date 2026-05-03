@@ -2,7 +2,7 @@
     "meta": {
         "lang": "de",
         "title": "tetra-tools.com — Hilfsmittel für Tetraplegiker",
-        "description": "Spezialisierte Hilfsmittel für querschnittsgelähmte Personen: Steckhilfe, Tipphilfe, Tetratzange und mehr."
+        "description": "Spezialisierte Hilfsmittel für querschnittsgelähmte Personen: Steckhilfe, Tipphilfe, Tetrazange und mehr."
     },
     "skipToContent": "Zum Inhalt springen",
     "header": {
@@ -12,7 +12,7 @@
         "label": "Hilfsmittel für Tetraplegiker",
         "title": "Mehr Selbstständigkeit",
         "titleAccent": "im Alltag.",
-        "description": "Wir entwickeln und fertigen praktische Hilfsmittel, die querschnittsgelähmten Personen mehr Unabhängigkeit im täglichen Leben ermöglichen — von der Steckhilfe bis zur Tetratzange.",
+        "description": "Wir entwickeln und fertigen praktische Hilfsmittel, die querschnittsgelähmten Personen mehr Unabhängigkeit im täglichen Leben ermöglichen — von der Steckhilfe bis zur Tetrazange.",
         "cta": "Jetzt anfragen",
         "ctaSecondary": "Produkte ansehen"
     },
@@ -72,10 +72,10 @@
                 ]
             },
             {
-                "id": "tetratzange",
-                "title": "Tetratzange",
+                "id": "tetrazange",
+                "title": "Tetrazange",
                 "shortDescription": "Patentierte Greifhilfe — vielseitig einsetzbar im Alltag.",
-                "description": "Die Tetratzange ist eine patentierte Greifhilfe, die speziell für die Bedürfnisse von Tetraplegikern entwickelt wurde. Sie ermöglicht das Greifen, Halten und Manipulieren verschiedenster Gegenstände im Alltag. Von der Küche bis zum Büro — die Tetratzange ist ein vielseitiger Begleiter.",
+                "description": "Die Tetrazange ist eine patentierte Greifhilfe, die speziell für die Bedürfnisse von Tetraplegikern entwickelt wurde. Sie ermöglicht das Greifen, Halten und Manipulieren verschiedenster Gegenstände im Alltag. Von der Küche bis zum Büro — die Tetrazange ist ein vielseitiger Begleiter.",
                 "badge": "Patentiert",
                 "features": [
                     "Patentiertes Design",
