@@ -8,6 +8,7 @@ export function renderFooter(): string {
       <span>${tr.footer.copyright}</span>
       <div class="footer-links">
         <a href="#impressum" id="footer-impressum">${tr.footer.impressum}</a>
+        <a href="#datenschutz" id="footer-datenschutz">${tr.footer.datenschutz}</a>
       </div>
     </div>
   `;

@@ -28,6 +28,9 @@ export function initI18n(): Lang {
     document.title = tr.meta.title;
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', tr.meta.description);
+    
+    // NEU: Logik beim App-Start aktivieren
+    initContactLogic();
 
     return currentLang;
 }
@@ -76,3 +79,37 @@ export function tPath(path: string): string {
     }
     return typeof result === 'string' ? result : path;
 }
+
+
+// Variable, um zu verhindern, dass der Listener mehrfach registriert wird
+let isLogicInitialized = false;
+
+/** Initialize contact form logic */
+export function initContactLogic() {
+    // Wenn der Listener schon läuft, binden wir ihn nicht noch einmal
+    if (isLogicInitialized) return;
+    isLogicInitialized = true;
+
+    document.addEventListener('change', (event) => {
+
+        const target = event.target as HTMLInputElement;
+        if (target && target.id === 'accept-terms') {
+            const ctaButton = document.getElementById('contact-cta');
+
+            if (ctaButton) {
+                if (target.checked) {
+                    ctaButton.classList.remove('btn--disabled');
+                } else {
+                    ctaButton.classList.add('btn--disabled');
+                }
+            }
+        }
+    });
+}
+
+
+
+
+
+
+

@@ -6,18 +6,18 @@
     },
     "skipToContent": "Zum Inhalt springen",
     "header": {
-        "logoAlt": "tetra-tools Logo"
+        "logoAlt": "TetraTools Logo"
     },
     "hero": {
         "label": "Hilfsmittel für Tetraplegiker",
         "title": "Mehr Selbstständigkeit",
         "titleAccent": "im Alltag.",
-        "description": "Wir entwickeln und fertigen praktische Hilfsmittel, die querschnittsgelähmten Personen mehr Unabhängigkeit im täglichen Leben ermöglichen — von der Steckhilfe bis zur Tetrazange.",
+        "description": "Wir entwickeln und fertigen praktische Hilfsmittel, die querschnittsgelähmten Personen mehr Unabhängigkeit in vielen Lebensbereichen ermöglichen — von der Küche, übers Büro und Toilette bis zur Werkstatt.",
         "cta": "Jetzt anfragen",
         "ctaSecondary": "Produkte ansehen"
     },
     "intro": {
-        "title": "Warum tetra-tools?",
+        "title": "Warum TetraTools?",
         "text1": "Unsere Hilfsmittel entstehen aus eigener Erfahrung. Als Betroffene wissen wir, worauf es im Alltag wirklich ankommt — und entwickeln Lösungen, die funktionieren.",
         "text2": "Alle Produkte werden in Deutschland gefertigt und können individuell angepasst werden. Bei Interesse kontaktieren Sie uns gerne per E-Mail.",
         "features": [
@@ -32,11 +32,6 @@
                 "description": "Alle Produkte werden sorgfältig in Deutschland hergestellt."
             },
             {
-                "icon": "📜",
-                "title": "Patentierte Technologien",
-                "description": "Eigene Patente sichern unsere innovativen Lösungen."
-            },
-            {
                 "icon": "🔧",
                 "title": "Individuelle Anpassung",
                 "description": "Jedes Hilfsmittel kann an persönliche Bedürfnisse angepasst werden."
@@ -45,55 +40,78 @@
     },
     "products": {
         "title": "Unsere Produkte",
-        "viewDetails": "Details ansehen",
+        "viewDetails": "Details",
         "items": [
-            {
-                "id": "steckhilfe",
-                "title": "Steckhilfe für Katheter",
-                "shortDescription": "Ergonomische Hilfe für das eigenständige Setzen von Kathetern.",
-                "description": "Die Steckhilfe wurde speziell für Personen mit eingeschränkter Handfunktion entwickelt. Sie ermöglicht das eigenständige und sichere Katheterisieren durch einen ergonomisch geformten Griff und eine durchdachte Führung. Das Gerät ist einfach zu reinigen und aus langlebigen, medizinisch unbedenklichen Materialien gefertigt.",
-                "features": [
-                    "Ergonomischer Griff",
-                    "Einfache Reinigung",
-                    "Medizinisch unbedenklich",
-                    "Individuell anpassbar"
-                ]
-            },
-            {
-                "id": "tipphilfe",
-                "title": "Tipphilfe für Tastatur",
-                "shortDescription": "Universelle Tipphilfe für Computer- und Laptop-Tastaturen.",
-                "description": "Die Tipphilfe ermöglicht es Personen mit Tetraplegie, eigenständig auf einer Standard-Tastatur zu tippen. Durch die spezielle Halterung wird das Gerät sicher an der Hand befestigt und ermöglicht präzise Tastenanschläge. Geeignet für alle gängigen Tastaturen und Laptops.",
-                "features": [
-                    "Universell einsetzbar",
-                    "Sichere Befestigung",
-                    "Präzise Steuerung",
-                    "Leichtgewichtig"
-                ]
-            },
             {
                 "id": "tetrazange",
                 "title": "Tetrazange",
-                "shortDescription": "Patentierte Greifhilfe — vielseitig einsetzbar im Alltag.",
-                "description": "Die Tetrazange ist eine patentierte Greifhilfe, die speziell für die Bedürfnisse von Tetraplegikern entwickelt wurde. Sie ermöglicht das Greifen, Halten und Manipulieren verschiedenster Gegenstände im Alltag. Von der Küche bis zum Büro — die Tetrazange ist ein vielseitiger Begleiter.",
+                "shortDescription": "Das Original! Entwickelt für's Kathetern (ISK), aber vielseitig einsetzbar.",
+                "description": "Die Tetrazange ist eine Greifhilfe, die speziell für den intermittierenden Selbstkatheterismus (ISK) von Tetraplegikern entwickelt wurde. Sie ermöglicht das Greifen und Halten des Katheters, aber auch anderer Gegenstände im Alltag. Von der Küche bis zur Werkstatt — die Tetrazange ist ein vielseitiger Begleiter.",
                 "badge": "Patentiert",
                 "features": [
-                    "Patentiertes Design",
+                    "Ermöglicht präzises Greifen",
+                    "Durch Handheber betätigt",
+                    "Unterarmstütze verstellbar",
                     "Vielseitig einsetzbar",
-                    "Robuste Konstruktion",
-                    "Ergonomische Form"
+                    "Ergonomische Form",
+                    "Links- und Rechtshänderversionen verfügbar"
+                ]
+            },
+             {
+                "id": "steckhilfe",
+                "title": "Steckhilfe für Katheter",
+                "shortDescription": "Hilfsmittel zum sicheren verbinden eines Katheters mit einem Urinbeutel.",
+                "description": "Den Katheter mit einem Urinbeutel zu verbinden ist für Personen mit geringer Handkraft ein Glücksspiel. Aber nicht mehr mit unserer Steckhilfe! Sie ermöglicht das sichere Verbinden von Katheter und Beutel und bietet gleichzeitig einen durchdachten Griff zum Halten des Katheters.",
+                "features": [
+                    "Feste Verbindung von Katheter und Urinbeutel",
+                    "Ergonomischer Griff",
+                    "Links- und Rechtshänderversionen verfügbar",
+                    "Breite verstellbar"
+                ]
+            },
+           {
+                "id": "hosenhaken",
+                "title": "Hosenhaken",
+                "shortDescription": "Hilfsmittel zum sicheren halten des Hosengummis beim Kathetern.",
+                "description": "Unser Hosenhaken hält beim Katheterisieren das Gummi der Unterhose. So hast du beide Hände frei, um das kleine Geschäft zu erledigen. Er wird einfach am Hosengummi eingehakt und am Sitzkissen zwischen den Beinen befestigt. Er bietet mehrere Greifmöglichkeiten, zum einfachen Einhaken am Sitzkissen. Und sollte der Haken mal auf den Boden fallen, kann er aufgrund seiner Form gut wieder aufgehoben werden.",
+                "features": [
+                    "Zum Einhaken am Sitzkissen",
+                    "Schont die Kleidung",
+                    "Mehrere Greifmöglichkeiten",
+                    "Optimiert für breite Hosengummis"
+                ]            
+            },
+            {
+                "id": "pulloverhaken",
+                "title": "Pulloverhaken",
+                "shortDescription": "Hilfsmittel zum sicheren halten des Pullovers beim Kathetern.",
+                "description": "Der Pulloverhaken hält beim Kathetern den Pullover hoch. Die Schnur wird um den Hals gelegt und der Pullover in den Haken fixiert. ACHTUNG: Dieses Hilfsmittel ist kein Kinderspielzeug. Aufgrund der robusten Konstruktion besteht Strangulationsgefahr. Niemals in die Hände von Kindern gelangen lassen.",
+                "features": [
+                    "Geeignet auch für dicke Pullover",
+                    "Länge verstellbar",
+                    "Robuste Konstruktion"
                 ]
             },
             {
-                "id": "katheterhaken",
-                "title": "Katheterhaken",
-                "shortDescription": "Verschiedene Haken-Varianten zur Erleichterung des Katheterisierens.",
-                "description": "Unsere Katheterhaken-Serie bietet verschiedene spezialisierte Haken-Lösungen, die das Katheterisieren erleichtern. Jede Variante ist für unterschiedliche Anwendungen optimiert und wird aus hochwertigen, hygienischen Materialien gefertigt. Die Haken können individuell an die Bedürfnisse des Nutzers angepasst werden.",
+                "id": "stifthalter",
+                "title": "Stifthalter",
+                "shortDescription": "Hilfsmittel zum sicheren Halten von Stiften.",
+                "description": "Am bequemsten schreibt man doch, wenn man den Stift in einer ganz natürlichen Handhaltung hält. Unser Stifthalter ermöglicht genau das: Er wird am Daumen und zwischen Zeige- und Mittelfinger befestigt und bietet einen sicheren Halt für Stifte mit einem Durchmesser von ca. 8 bis 12 mm. So kannst du problemlos schreiben, zeichnen oder malen.",
                 "features": [
-                    "Mehrere Varianten",
-                    "Hygienische Materialien",
-                    "Individuell anpassbar",
-                    "Einfache Handhabung"
+                    "Stift austauschbar",
+                    "Für Stiftdurchmesser von ca. 8 bis 12 mm",
+                    "Sicherer Halt",
+                    "Links- und Rechtshänderversionen verfügbar"
+                ]            
+            },
+            {
+                "id": "tipphilfe",
+                "title": "Tipphilfe",
+                "shortDescription": "Universelle Tipphilfe für Computertastaturen und andere Tasten.",
+                "description": "Die Tipphilfe ermöglicht es Personen ohne Fingerfunktion, eigenständig auf einer Standard-Tastatur zu tippen. Die Tipphilfe wird einfach an die Hand gesteckt und los geht's ...!",
+                "features": [
+                    "rutschfeste Spitze",
+                    "Linke und rechte Version verfügbar"
                 ]
             }
         ]
@@ -109,19 +127,48 @@
         "title": "Interesse geweckt?",
         "description": "Kontaktieren Sie uns per E-Mail, um mehr über unsere Produkte zu erfahren oder eine Anfrage zu stellen. Wir beraten Sie gerne individuell.",
         "cta": "E-Mail schreiben",
-        "emailSubject": "Anfrage über tetra-tools.com"
+        "emailSubject": "Anfrage über tetra-tools.com",
+        "acceptTerms": "Ich akzeptiere die Datenschutzbestimmungen"
     },
     "footer": {
         "copyright": "© 2026 tetra-tools.com — Alle Rechte vorbehalten.",
-        "impressum": "Impressum"
+        "impressum": "Impressum",
+        "datenschutz": "Datenschutz"
     },
     "impressum": {
         "title": "Impressum",
-        "responsible": "Angaben gemäß § 5 TMG",
-        "responsibleContent": "[Name / Firma]\n[Straße Nr.]\n[PLZ Ort]\n[Land]",
+        "responsible": "Angaben gemäß § 5 DDG",
+        "responsibleContent": "TetraTools, Inh. Dominik Hans\nDominik Hans\nWagnersraße 10\n76461 Muggensturm\nDeutschland",
         "contactTitle": "Kontakt",
-        "contactContent": "E-Mail: request@tetra-tools.com",
+        "contactContent": "Telefon: +49 171 2303011\nE-Mail: request@tetra-tools.com",
+        "redContTitle": "Redaktionell verantwortlich gemäß § 18 Abs. 2 MStV:",
+        "redContContent": "Dominik Hans\nWagnersraße 10\n76461 Muggensturm\nDeutschland",
+        "taxIDTitle": "Umsatzsteuer-ID",
+        "taxIDContent": "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:\nDE461437325\nHinweis zur Umsatzsteuer:\nAls Kleinunternehmer im Sinne von § 19 Abs. 1 UStG wird keine Umsatzsteuer berechnet.",
+        "schlichtTitle": "Verbraucher­streit­beilegung/Universal­schlichtungs­stelle:",
+        "schlichtContent": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
         "disclaimer": "Haftungsausschluss",
         "disclaimerContent": "Die Inhalte dieser Website werden mit größtmöglicher Sorgfalt erstellt. Der Anbieter übernimmt jedoch keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Inhalte."
+    },
+    "datenschutz": {
+        "title": "Datenschutz",
+        "responsible": "Verantwortlicher",
+        "responsibleContent": "TetraTools, Inh. Dominik Hans\nWagnersraße 10\n76461 Muggensturm\nDeutschland",
+        "contactTitle": "Kontakt",
+        "contactContent": "E-Mail: request@tetra-tools.com",
+        "TOC": "Inhalt",
+        "TOCContent": "1. Name und Kontaktdaten der verantwortlichen Stelle\n2. Erhebung und Speicherung personenbezogener Daten; Art, Zweck und Verwendung\n3. Weitergabe von Daten an Dritte\n4. Ihre Rechte als betroffene Person\n5. Ihr Recht auf Widerspruch\n6. Datenverarbeitung über unsere Website",
+        "chapter1": "1. Name und Kontaktdaten der verantwortlichen Stelle",
+        "chapter1Content": "Diese Datenschutzhinweise  gelten für uns,\nTetraTools, Inh. Dominik Hans\nWagnerstraße 10\n76461 Muggensturm\nTel.: +49 171 2303011\nE-Mail: request@tetra-tools.com,\nals verantwortliche Stelle.",
+        "chapter2": "2. Erhebung und Speicherung personenbezogener Daten; Art, Zweck und Verwendung",
+        "chapter2Content": "Wenn Sie uns beauftragen, werden folgende Informationen erhoben:\n- Anrede, Titel, Vorname, Nachname\n- Anschrift\n- E-Mail-Adresse\n- Telefonnummer (Festnetz und/oder Mobilfunk)\n- ggf. Faxnummer (wenn vorhanden & gewünscht)\n- ggf. Kontodaten\n- ggf. Geburtsdatum\nAußerdem werden alle Informationen erhoben, die für die Erfüllung des Vertrages mit Ihnen notwendig sind.\nZu den erhobenen Daten können auch besondere Kategorien personenbezogener Daten im Sinne von Art. 9 DSGVO gehören. Dazu zählen z.B. biometrische Daten oder auch Gesundheitsdaten. Bei Durchführung des Vertrages werden dann in erster Linie z.B. Versicherungsunterlagen, Korrespondenz, ärztliche Bescheinigungen bzw. Verordnungen, Befunde o.ä. erhoben. Unter Umständen werden diese Daten mit Ihrer Einwilligung auch bei Dritten angefordert (z.B. beim behandelnden Arzt) oder die Daten werden von Dritten übermittelt (z.B. von der Krankenkasse).\n\nDie Erhebung der personenbezogenen Daten und auch der besonderen Kategorien personenbezogener Daten erfolgt,\n- um Sie als Kunden identifizieren zu können;\n- um Sie angemessen beraten zu können;\n- um unsere vertraglichen Pflichten Ihnen gegenüber erfüllen zu können;\n- um unseren gesetzlichen Verpflichtungen nachkommen zu können;\n- zur Korrespondenz mit Ihnen;\n- zur Rechnungsstellung bzw. ggf. im Rahmen des Mahnwesens;\n- zu Zwecken der zulässigen Direktwerbung;\n- zur Geltendmachung etwaiger Ansprüche gegen Sie.\nDie Verarbeitung der personenbezogenen Daten erfolgt anlässlich Ihrer Anfrage bei uns und ist zu den genannten Zwecken für die Bearbeitung Ihres Auftrags und für die Erfüllung von Verpflichtungen aus dem zugrundeliegenden Vertrag erforderlich.\nDie erhobenen personenbezogenen Daten werden bis zum Ablauf der gesetzlichen Aufbewahrungspflicht für Kaufleute (6, 8 oder 10 Jahre nach Ablauf des Kalenderjahres, in dem das Vertragsverhältnis beendet wurde,) gespeichert und danach gelöscht. Dies gilt ausnahmsweise nicht, wenn wir aufgrund von steuer- oder handelsrechtlichen Aufbewahrungspflichten (gemäß HGB, StGB oder AO) zu einer längeren Speicherung verpflichtet sind oder wenn Sie in eine darüber hinausgehende Speicherung eingewilligt haben.",
+        "chapter3": "3. Weitergabe von Daten an Dritte",
+        "chapter3Content": "Eine Übermittlung Ihrer personenbezogenen Daten an Dritte findet grundsätzlich nicht statt. Ausnahmen hiervon gelten nur, soweit dies für die Abwicklung von Vertragsverhältnissen mit Ihnen erforderlich ist. Hierzu zählt insbesondere die Weitergabe an von uns beauftragte Dienstleister (sog. Auftragsverarbeiter) oder sonstige Dritte, deren Tätigkeit für die Vertragsdurchführung erforderlich ist (z.B. Versandunternehmen, Krankenkassen oder Banken). Die weitergegebenen Daten dürfen von den Dritten ausschließlich zu den genannten Zwecken verwendet werden.",
+        "chapter4": "4. Ihre Rechte als betroffene Person",
+        "chapter4Content": "Ihnen als von der Datenverarbeitung betroffenen Person stehen verschiedene Rechte zu:\n- Widerrufsrecht: Von Ihnen erteilte Einwilligungen können Sie jederzeit uns gegenüber widerrufen. Die Datenverarbeitung, die auf der widerrufenen Einwilligung beruht, darf dann für die Zukunft nicht mehr fortgeführt werden.\n- Auskunftsrecht: Sie können Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten verlangen. Dies gilt insbesondere für die Zwecke der Datenverarbeitungen, die Kategorien der personenbezogenen Daten, ggf. die Kategorien von Empfängern, die Speicherdauer, ggf. die Herkunft Ihrer Daten sowie ggf. für das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftigen Informationen zu deren Details.\n- Berichtigungsrecht: Sie können die Berichtigung unrichtiger oder die Vervollständigung Ihrer bei uns gespeicherten personenbezogenen Daten verlangen.\n- Löschungsrecht: Sie können die Löschung Ihrer bei uns gespeicherten personenbezogenen Daten verlangen, soweit deren Verarbeitung nicht zur Ausübung des Rechts auf freie Meinungsäußerung und Information, zur Erfüllung einer rechtlichen Verpflichtung, aus Gründen des öffentlichen Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist.\n- Recht auf Einschränkung der Verarbeitung: Sie können die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten verlangen, soweit die Richtigkeit der Daten von Ihnen bestritten wird, die Verarbeitung unrechtmäßig ist, Sie aber deren Löschung ablehnen. Außerdem steht Ihnen dieses Recht zu, wenn wir die Daten nicht mehr benötigen, Sie diese jedoch zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen. Darüber hinaus haben Sie dieses Recht, wenn Sie Widerspruch gegen die Verarbeitung Ihrer personenbezogenen Daten eingelegt haben;\n- Recht auf Datenübertragbarkeit: Sie können verlangen, dass wir Ihnen Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesebaren Format übermitteln. Alternativ können Sie die direkte Übermittlung der von Ihnen uns bereitgestellten personenbezogenen Daten an einen anderen Verantwortlichen verlangen, soweit dies möglich ist.\n- Beschwerderecht: Sie können sich bei der für uns zuständigen Aufsichtsbehörde beschweren, z.B. wenn Sie der Ansicht sind, dass wir Ihre personenbezogenen Daten in unrechtmäßiger Weise verarbeiten. Die für uns zuständige Behörde ist: Landesbeauftragter für den Datenschutz und die Informationsfreiheit Baden-Württemberg, Heilbronner Straße 35, 70191 Stuttgart, (Postanschrift: Postfach 10 29 32, 70025 Stuttgart); Telefon: 0711 6155410; E-Mail: poststelle@lfdi.bwl.de",
+        "chapter5": "5. Ihr Recht auf Widerspruch",
+        "chapter5Content": "Sofern wir Ihre personenbezogenen Daten auf Basis eines berechtigten Interesses verarbeiten, haben Sie das Recht, Widerspruch gegen diese Verarbeitung einzulegen. Möchten Sie von Ihrem Widerspruchsrecht Gebrauch machen, genügt eine Mitteilung in Textform. Sie können uns also gerne anschreiben oder sich per E-Mail an uns wenden. Unsere Kontaktdaten finden Sie unter Punkt 1. dieser Datenschutzhinweise.",
+        "chapter6": "6. Datenverarbeitung über unsere Website",
+        "chapter6Content": "Wir setzen in einigen Bereichen unserer Webseite sogenannte Cookies ein. Durch solche Dateielemente kann Ihr Computer als technische Einheit während Ihres Besuchs auf dieser Webseite identifiziert werden, um Ihnen die Verwendung unseres Angebotes zu erleichtern.\nSie haben aber in der Regel die Möglichkeit, Ihren Internetbrowser so einzustellen, dass Sie über das Auftreten von Cookies informiert werden, so dass Sie diese zulassen oder ausschließen, beziehungsweise bereits vorhandene Cookies löschen können.\nBitte verwenden Sie die Hilfefunktion Ihres Internetbrowsers, um Informationen zu der Änderung dieser Einstellungen zu erlangen. Wir weisen darauf hin, dass einzelne Funktionen unserer Webseite möglicherweise nicht funktionieren, wenn Sie die Verwendung von Cookies deaktiviert haben.\nCookies erlauben nicht, dass ein Server private Daten von Ihrem Computer oder die von einem anderen Server abgelegten Daten lesen kann. Sie richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren.\nWir stützen den Einsatz von Cookies auf Art. 6 Abs. 1 Buchst. f) DSGVO: die Verarbeitung erfolgt zur Verbesserung der Funktionsweise unserer Webseite. Sie ist daher zur Wahrung unserer berechtigten Interessen erforderlich."
     }
 }

@@ -1,4 +1,4 @@
-export type Route = 'home' | 'product' | 'impressum';
+export type Route = 'home' | 'product' | 'impressum' | 'datenschutz';
 
 interface RouteState {
     route: Route;
@@ -17,6 +17,9 @@ function parseHash(): RouteState {
     }
     if (hash === 'impressum') {
         return { route: 'impressum' };
+    }
+    if (hash === 'datenschutz') {
+        return { route: 'datenschutz' };
     }
     return { route: 'home' };
 }

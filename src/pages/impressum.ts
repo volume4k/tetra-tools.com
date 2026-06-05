@@ -12,7 +12,16 @@ export function renderImpressum(): string {
         <p style="white-space: pre-line;">${tr.impressum.responsibleContent}</p>
 
         <h2>${tr.impressum.contactTitle}</h2>
-        <p>${tr.impressum.contactContent}</p>
+        <p style="white-space: pre-line;">${tr.impressum.contactContent}</p>
+ 
+        <h2>${tr.impressum.redContTitle}</h2>
+        <p style="white-space: pre-line;">${tr.impressum.redContContent}</p>
+
+        <h2>${tr.impressum.taxIDTitle}</h2>
+        <p style="white-space: pre-line;">${tr.impressum.taxIDContent}</p>
+
+        <h2>${tr.impressum.schlichtTitle}</h2>
+        <p style="white-space: pre-line;">${tr.impressum.schlichtContent}</p>
 
         <h2>${tr.impressum.disclaimer}</h2>
         <p>${tr.impressum.disclaimerContent}</p>

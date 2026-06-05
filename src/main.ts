@@ -10,6 +10,7 @@ import { renderFooter } from './components/footer.ts';
 import { renderHome, bindHomeEvents } from './pages/home.ts';
 import { renderProductDetail, bindProductDetailEvents } from './pages/product-detail.ts';
 import { renderImpressum } from './pages/impressum.ts';
+import { renderDatenschutz } from './pages/datenschutz.ts';
 
 // Initialize i18n (auto-detect browser language)
 initI18n();
@@ -42,6 +43,9 @@ function renderPage(route: Route, param?: string): void {
       break;
     case 'impressum':
       mainEl.innerHTML = renderImpressum();
+      break;
+    case 'datenschutz':
+      mainEl.innerHTML = renderDatenschutz();
       break;
   }
 
@@ -78,8 +82,12 @@ onLangChange(() => {
   if (hash.startsWith('product/')) {
     route = 'product';
     param = hash.replace('product/', '');
-  } else if (hash === 'impressum') {
+  } 
+  else if (hash === 'impressum') {
     route = 'impressum';
+  }
+  else if (hash === 'datenschutz') {
+    route = 'datenschutz';
   }
 
   renderPage(route, param);

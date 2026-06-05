@@ -1,19 +1,20 @@
 :root {
     /* ── Colors ── */
-    --color-bg: #F5F0EB;
-    --color-bg-alt: #EDE7E0;
-    --color-surface: #FFFFFF;
-    --color-text: #1A1A1A;
-    --color-text-muted: #5A5650;
-    --color-accent: #D4440F;
+    --color-bg: #383838;
+    --color-bg-alt: #c2c2c2;
+    --color-surface: #3d3d3d;
+    --color-text: #d1d49d;
+    --color-text-muted: #bec285;
+    --color-accent: #d4813c;
     --color-accent-hover: #B83A0D;
-    --color-secondary: #2D6A4F;
+    --color-secondary: #c2c2c2;
     --color-secondary-hover: #245840;
-    --color-border: #1A1A1A;
-    --color-border-light: #C8C0B8;
+    --color-border: #5f5f5f;
+    --color-border-light: #c2c2c2;
+    --color-bg-contact: #1A1A1A;
 
     /* ── Typography ── */
-    --font-display: 'Bricolage Grotesque', Georgia, serif;
+    --font-display: 'Smooch Sans', sans-serif;
     --font-body: 'Atkinson Hyperlegible Next', Verdana, sans-serif;
 
     --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
