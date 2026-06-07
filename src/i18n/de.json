@@ -121,7 +121,12 @@
         "features": "Eigenschaften",
         "contact": "Produkt anfragen",
         "notFound": "Produkt nicht gefunden.",
-        "backHome": "Zurück zur Startseite"
+        "backHome": "Zurück zur Startseite",
+        "galleryLabel": "Bildergalerie",
+        "galleryControls": "Bilder wechseln",
+        "galleryImage": "Bild anzeigen",
+        "previousImage": "Vorheriges Bild",
+        "nextImage": "Nächstes Bild"
     },
     "contact": {
         "title": "Interesse geweckt?",

@@ -48,17 +48,34 @@ export function renderProductDetail(productId: string): string {
     .map((f) => `<li>✓ ${f}</li>`)
     .join('');
 
+  const galleryDots = pattern.images
+    .map((_, index) => `
+      <button
+        class="product-gallery-dot${index === 0 ? ' is-active' : ''}"
+        type="button"
+        data-gallery-index="${index}"
+        aria-label="${tr.productDetail.galleryImage} ${index + 1}"
+        aria-current="${index === 0 ? 'true' : 'false'}">
+      </button>
+    `)
+    .join('');
+
   return `
     <section class="product-detail" data-product-id="${productId}" aria-labelledby="product-detail-title">
       <div class="container">
         <a href="#" class="product-detail-back" id="product-back">${tr.productDetail.back}</a>
 
         <div class="product-detail-header">
-          <div class="product-detail-image" aria-hidden="true">
-            <img id="product-image" src="${pattern.images[0]}" alt="${product.title}" style="width: 100%; height: 100%; object-fit: contain;" />
-            <div class="carousel-controls" style="display: flex; justify-content: center; margin-top: 10px;">
-              <button id="product-prev" aria-label="Previous image" style="margin: 0 5px; padding: 3px 20px;">&larr;</button>
-              <button id="product-next" aria-label="Next image" style="margin: 0 5px; padding: 5px 20px;">&rarr;</button>
+          <div class="product-gallery" aria-label="${product.title} ${tr.productDetail.galleryLabel}">
+            <div class="product-detail-image" id="product-gallery-frame">
+              <img id="product-image" src="${pattern.images[0]}" alt="${product.title}" draggable="false" />
+            </div>
+            <div class="carousel-controls" aria-label="${tr.productDetail.galleryControls}">
+              <button class="product-gallery-button" id="product-prev" type="button" aria-label="${tr.productDetail.previousImage}">&larr;</button>
+              <div class="product-gallery-dots" id="product-gallery-dots">
+                ${galleryDots}
+              </div>
+              <button class="product-gallery-button" id="product-next" type="button" aria-label="${tr.productDetail.nextImage}">&rarr;</button>
             </div>
           </div>
           <div class="product-detail-info">
@@ -104,20 +121,59 @@ export function bindProductDetailEvents(): void {
   if (!pattern) return;
 
   const img = document.getElementById('product-image') as HTMLImageElement;
+  const galleryFrame = document.getElementById('product-gallery-frame') as HTMLElement;
   const prevBtn = document.getElementById('product-prev') as HTMLButtonElement;
   const nextBtn = document.getElementById('product-next') as HTMLButtonElement;
+  const dots = Array.from(document.querySelectorAll<HTMLButtonElement>('.product-gallery-dot'));
 
-  if (!img || !prevBtn || !nextBtn) return;
+  if (!img || !galleryFrame || !prevBtn || !nextBtn) return;
 
   let currentIndex = 0;
+  let pointerStartX = 0;
+  let pointerStartY = 0;
+  let isPointerDown = false;
+  const swipeThreshold = 48;
 
-  prevBtn.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + pattern.images.length) % pattern.images.length;
+  const updateImage = (nextIndex: number) => {
+    currentIndex = (nextIndex + pattern.images.length) % pattern.images.length;
     img.src = pattern.images[currentIndex];
+    dots.forEach((dot, index) => {
+      const isActive = index === currentIndex;
+      dot.classList.toggle('is-active', isActive);
+      dot.setAttribute('aria-current', isActive ? 'true' : 'false');
+    });
+  };
+
+  prevBtn.addEventListener('click', () => updateImage(currentIndex - 1));
+  nextBtn.addEventListener('click', () => updateImage(currentIndex + 1));
+
+  dots.forEach((dot) => {
+    dot.addEventListener('click', () => {
+      const nextIndex = Number(dot.dataset.galleryIndex);
+      if (Number.isInteger(nextIndex)) updateImage(nextIndex);
+    });
   });
 
-  nextBtn.addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % pattern.images.length;
-    img.src = pattern.images[currentIndex];
+  galleryFrame.addEventListener('pointerdown', (event) => {
+    pointerStartX = event.clientX;
+    pointerStartY = event.clientY;
+    isPointerDown = true;
+  });
+
+  galleryFrame.addEventListener('pointerup', (event) => {
+    if (!isPointerDown) return;
+    isPointerDown = false;
+
+    const deltaX = event.clientX - pointerStartX;
+    const deltaY = event.clientY - pointerStartY;
+    const isHorizontalSwipe = Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) >= swipeThreshold;
+
+    if (isHorizontalSwipe) {
+      updateImage(deltaX < 0 ? currentIndex + 1 : currentIndex - 1);
+    }
+  });
+
+  galleryFrame.addEventListener('pointercancel', () => {
+    isPointerDown = false;
   });
 }
