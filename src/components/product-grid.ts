@@ -3,14 +3,34 @@ import { navigate } from '../router.ts';
 
 /** Placeholder color patterns for products (no external images needed) */
 const productPatterns: Record<string, { bg: string; label: string }> = {
-  steckhilfe: { bg: '#E8D5C4', label: '📍' },
-  tipphilfe: { bg: '#D5E0D0', label: '⌨️' },
-  tetratzange: { bg: '#D0D8E0', label: '🔧' },
-  katheterhaken: { bg: '#E0D5D0', label: '🪝' },
+  tetrazange: {
+    bg: "--color-bg-alt",
+    label: '<img src="/tetrazange-1.png" alt="Tetra Zange" style="width: 100%; height: 100%; object-fit: contain;" />',
+  },
+  steckhilfe: {
+    bg: "--color-bg-alt",
+    label: '<img src="/steckhilfe-1.png" alt="Steckhilfe" style="width: 100%; height: 100%; object-fit: contain;" />',
+  },
+  hosenhaken: {
+    bg: "--color-bg-alt", 
+    label: '<img src="/hosenhaken-1.png" alt="Hosenhaken" style="width: 100%; height: 100%; object-fit: contain;" />',
+  },
+  pulloverhaken: {
+    bg: "--color-bg-alt",
+    label: '<img src="/pulloverhaken-1.png" alt="Pulloverhaken" style="width: 100%; height: 100%; object-fit: contain;" />',
+  },
+  tipphilfe: {
+    bg: "--color-bg-alt",
+    label: '<img src="/tipphilfe-1.png" alt="Tipphilfe" style="width: 100%; height: 100%; object-fit: contain;" />',
+  },
+  stifthalter: {
+    bg: "--color-bg-alt",
+    label: '<img src="/stifthalter-1.png" alt="Stifthalter" style="width: 100%; height: 100%; object-fit: contain;" />',
+  }
 };
 
 function productPlaceholder(id: string): string {
-  const p = productPatterns[id] || { bg: '#DDD', label: '?' };
+  const p = productPatterns[id] || { bg: '--color-bg-alt', label: '?' };
   return `
     <div class="product-card-image" style="background: ${p.bg}; display: flex; align-items: center; justify-content: center; font-size: 3rem;" aria-hidden="true">
       ${p.label}

@@ -13,12 +13,13 @@ export function renderHero(): string {
         </h1>
         <p class="hero-description">${tr.hero.description}</p>
         <div class="hero-cta">
-          <a href="mailto:request@tetra-tools.com?subject=${encodeURIComponent(tr.contact.emailSubject)}" class="btn btn--primary" id="hero-cta-email">
-            ✉ ${tr.hero.cta}
-          </a>
-          <a href="#products-section" class="btn btn--outline" id="hero-cta-products">
+          <a href="#products-section" class="btn btn--primary" id="hero-cta-products">
             ↓ ${tr.hero.ctaSecondary}
           </a>
+<!--          <a href="mailto:request@tetra-tools.com?subject=${encodeURIComponent(tr.contact.emailSubject)}" class="btn btn--primary" id="hero-cta-email">
+            ✉ ${tr.hero.cta}
+          </a> 
+-->
         </div>
       </div>
     </section>

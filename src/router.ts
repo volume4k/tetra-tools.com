@@ -1,4 +1,4 @@
-export type Route = 'home' | 'product' | 'impressum';
+export type Route = 'home' | 'product' | 'impressum' | 'datenschutz';
 
 interface RouteState {
     route: Route;
@@ -18,6 +18,9 @@ function parseHash(): RouteState {
     if (hash === 'impressum') {
         return { route: 'impressum' };
     }
+    if (hash === 'datenschutz') {
+        return { route: 'datenschutz' };
+    }
     return { route: 'home' };
 }
 
@@ -32,7 +35,9 @@ export function initRouter(fn: RouteHandler): void {
     window.addEventListener('hashchange', () => {
         const state = parseHash();
         handler?.(state);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.requestAnimationFrame(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
     });
     // Initial route
     handler(parseHash());

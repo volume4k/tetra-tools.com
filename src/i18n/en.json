@@ -6,18 +6,18 @@
     },
     "skipToContent": "Skip to content",
     "header": {
-        "logoAlt": "tetra-tools Logo"
+        "logoAlt": "TetraTools Logo"
     },
     "hero": {
         "label": "Assistive Devices for Tetraplegics",
         "title": "More Independence",
         "titleAccent": "in Daily Life.",
-        "description": "We develop and manufacture practical assistive devices that give people with tetraplegia greater independence in everyday life — from catheter aids to the Tetra tongs.",
+        "description": "We develop and manufacture practical assistive devices that give people with tetraplegia greater independence in many areas of life — from the kitchen, through the office and bathroom, to the workshop.",
         "cta": "Get in Touch",
         "ctaSecondary": "View Products"
     },
     "intro": {
-        "title": "Why tetra-tools?",
+        "title": "Why TetraTools?",
         "text1": "Our assistive devices are born from lived experience. As people with tetraplegia ourselves, we know what truly matters in daily life — and we build solutions that work.",
         "text2": "All products are manufactured in Germany and can be individually customized. If you're interested, please contact us via email.",
         "features": [
@@ -32,11 +32,6 @@
                 "description": "All products are carefully manufactured in Germany."
             },
             {
-                "icon": "📜",
-                "title": "Patented Technologies",
-                "description": "Our own patents protect our innovative solutions."
-            },
-            {
                 "icon": "🔧",
                 "title": "Individual Customization",
                 "description": "Every device can be adapted to personal needs."
@@ -44,56 +39,79 @@
         ]
     },
     "products": {
-        "title": "Our Products",
+         "title": "Our Products",
         "viewDetails": "View Details",
         "items": [
-            {
-                "id": "steckhilfe",
-                "title": "Catheter Insertion Aid",
-                "shortDescription": "Ergonomic aid for independent catheter insertion.",
-                "description": "The catheter insertion aid was specifically developed for people with limited hand function. It enables independent and safe catheterization through an ergonomically shaped grip and a well-designed guide. The device is easy to clean and made from durable, medically safe materials.",
-                "features": [
-                    "Ergonomic grip",
-                    "Easy to clean",
-                    "Medically safe",
-                    "Individually adjustable"
-                ]
+             {
+            "id": "tetrazange",
+            "title": "Tetrapliers",
+            "shortDescription": "The original! Designed for catheterization (ISC), but versatile in use.",
+            "description": "The Tetrapliers is a gripping aid specially developed for intermittent self-catheterization (ISC) by tetraplegics. It enables grasping and holding the catheter, as well as other objects in everyday life. From the kitchen to the workshop — the Tetrapliers is a versatile companion.",
+            "badge": "Patented",
+            "features": [
+                "Enables precise gripping",
+                "Operated by hand lifter",
+                "Adjustable forearm support",
+                "Versatile in use",
+                "Ergonomic shape",
+                "Available in left- and right-handed versions"
+            ]
+           },
+           {
+            "id": "steckhilfe",
+            "title": "Connector Aid for Catheters",
+            "shortDescription": "Aid for securely connecting a catheter to a urine bag.",
+            "description": "Connecting a catheter to a urine bag can be a matter of luck for people with limited hand strength. Not anymore with our connector aid! It enables the secure joining of catheter and bag while providing a thoughtfully designed grip for holding the catheter.",
+            "features": [
+                "Secure connection between catheter and urine bag",
+                "Ergonomic handle",
+                "Available in left- and right-handed versions",
+                "Adjustable width"
+            ]
             },
             {
-                "id": "tipphilfe",
-                "title": "Keyboard Typing Aid",
-                "shortDescription": "Universal typing aid for computer and laptop keyboards.",
-                "description": "The typing aid enables people with tetraplegia to type independently on a standard keyboard. The special mounting securely attaches the device to the hand and allows precise keystrokes. Suitable for all common keyboards and laptops.",
-                "features": [
-                    "Universal compatibility",
-                    "Secure attachment",
-                    "Precise control",
-                    "Lightweight"
-                ]
+            "id": "hosenhaken",
+            "title": "Pants Hook",
+            "shortDescription": "Aid for securely holding the waistband while catheterizing.",
+            "description": "Our pants hook holds the underwear waistband during catheterization, leaving both hands free to take care of the task. It hooks onto the waistband and is attached to the seat cushion between the legs. It offers multiple gripping options for easy hooking to the seat cushion.",
+            "features": [
+                "For hooking onto the seat cushion",
+                "Protects clothing",
+                "Multiple gripping options",
+                "Optimized for wide waistbands"
+            ]
             },
             {
-                "id": "tetratzange",
-                "title": "Tetra Tongs",
-                "shortDescription": "Patented gripping aid — versatile for everyday use.",
-                "description": "The Tetra Tongs are a patented gripping aid specifically developed for the needs of people with tetraplegia. They enable gripping, holding, and manipulating various objects in daily life. From the kitchen to the office — the Tetra Tongs are a versatile companion.",
-                "badge": "Patented",
-                "features": [
-                    "Patented design",
-                    "Versatile use",
-                    "Robust construction",
-                    "Ergonomic shape"
-                ]
+           "id": "pulloverhaken",
+            "title": "Pullover Hook",
+            "shortDescription": "Aid for securely holding the sweater during catheterization.",
+            "description": "The pullover hook holds the sweater up during catheterization. The cord is placed around the neck and the sweater is secured in the hook. WARNING: This aid is not a toy. Due to its sturdy construction there is a risk of strangulation. Never allow children to handle it.",
+            "features": [
+                "Suitable for thick sweaters",
+                "Adjustable length",
+                "Robust construction"
+            ]
             },
             {
-                "id": "katheterhaken",
-                "title": "Catheter Hooks",
-                "shortDescription": "Various hook variants to facilitate catheterization.",
-                "description": "Our catheter hook series offers various specialized hook solutions that make catheterization easier. Each variant is optimized for different applications and is made from high-quality, hygienic materials. The hooks can be individually adapted to the user's needs.",
-                "features": [
-                    "Multiple variants",
-                    "Hygienic materials",
-                    "Individually adjustable",
-                    "Easy handling"
+            "id": "stifthalter",
+            "title": "Pen Holder",
+            "shortDescription": "Aid for securely holding pens.",
+            "description": "Writing is most comfortable when you hold the pen in a natural hand position. Our pen holder makes exactly that possible: it is attached to the thumb and between the index and middle finger and provides a secure grip for pens with a diameter of approx. 8 to 12 mm. This allows you to write, draw or paint without difficulty.",
+            "features": [
+                "Replaceable pen",
+                "For pen diameters of approx. 8 to 12 mm",
+                "Secure grip",
+                "Available in left- and right-handed versions"
+            ]
+            },
+            {
+            "id": "tipphilfe",
+            "title": "Typing Aid",
+            "shortDescription": "Universal typing aid for computer keyboards and other keys.",
+            "description": "The typing aid enables people without finger function to type independently on a standard keyboard. The typing aid is simply slipped onto the hand and you're ready to go...!",
+            "features": [
+                "Non-slip tip",
+                "Left and right versions available"
                 ]
             }
         ]
@@ -109,19 +127,48 @@
         "title": "Interested?",
         "description": "Contact us via email to learn more about our products or to make an inquiry. We're happy to advise you individually.",
         "cta": "Send Email",
-        "emailSubject": "Inquiry via tetra-tools.com"
+        "emailSubject": "Inquiry via tetra-tools.com",
+        "acceptTerms": "I accept the privacy policy"
     },
     "footer": {
         "copyright": "© 2026 tetra-tools.com — All rights reserved.",
-        "impressum": "Legal Notice"
+        "impressum": "Legal Notice",
+        "datenschutz": "Privacy Policy"
     },
     "impressum": {
         "title": "Legal Notice",
-        "responsible": "Information according to § 5 TMG",
-        "responsibleContent": "[Name / Company]\n[Street No.]\n[ZIP City]\n[Country]",
+        "responsible": "Information pursuant to § 5 of the German Digital Services Act (DDG):",
+        "responsibleContent": "TetraTools, Inh. Dominik Hans\nWagnersraße 10\n76461 Muggensturm\nGermany",
         "contactTitle": "Contact",
         "contactContent": "Email: request@tetra-tools.com",
-        "disclaimer": "Disclaimer",
+        "redContTitle": "Person responsible for editorial content pursuant to § 18 Abs. 2 MStV:",
+        "redContContent": "Dominik Hans\nWagnersraße 10\n76461 Muggensturm\nDeutschland",
+        "taxIDTitle": "VAT ID:",
+        "taxIDContent": "VAT identification number pursuant to § 27 a of the German Value Added Tax Act (Umsatzsteuergesetz):\nDE461437325",
+        "schlichtTitle": "Dispute resolution / Consumer arbitration:",
+        "schlichtContent": "We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+         "disclaimer": "Disclaimer",
         "disclaimerContent": "The contents of this website are created with the greatest possible care. However, the provider assumes no liability for the correctness, completeness, and timeliness of the provided content."
+    },
+    "datenschutz": {
+        "title": "Privacy Policy",
+        "responsible": "Responsible",
+        "responsibleContent": "TetraTools, Inh. Dominik Hans\nWagnersraße 10\n76461 Muggensturm\nGermany",
+        "contactTitle": "Contact",
+        "contactContent": "Email: request@tetra-tools.com",
+        "TOC": "Contents",
+        "TOCContent": "1. Name and contact details of the controller\n2. Collection and storage of personal data; type, purpose and use\n3. Transfer of data to third parties\n4. Your rights as a data subject\n5. Your right to object\n6. Data processing via our website",
+        "chapter1": "1. Name and contact details of the controller",
+        "chapter1Content": "These data protection notices apply to us,\nTetraTools, owner Dominik Hans\nWagnerstraße 10\n76461 Muggensturm\nTel.: +49 171 2303011\nEmail: request@tetra-tools.com,\nas the controller.",
+        "chapter2": "2. Collection and storage of personal data; type, purpose and use",
+        "chapter2Content": "When you engage us, the following information is collected:\n- Salutation, academic title, first name, last name\n- Address\n- Email address\n- Telephone number (landline and/or mobile)\n- if applicable, fax number (if available & desired)\n- if applicable, bank account details\n- if applicable, date of birth\nIn addition, all information necessary to fulfil the contract with you will be collected.\nThe collected data may also include special categories of personal data within the meaning of Article 9 GDPR. These include, for example, biometric data or health data. In the course of performing the contract, documents such as insurance records, correspondence, medical certificates or prescriptions, findings or similar will primarily be collected. In some cases, these data may also be requested from third parties with your consent (e.g., from the treating physician) or the data may be transmitted by third parties (e.g., by the health insurance fund).\n\nThe collection of personal data and also of special categories of personal data takes place\n- to be able to identify you as a customer;\n- to be able to advise you appropriately;\n- to be able to fulfil our contractual obligations to you;\n- to comply with our legal obligations;\n- for correspondence with you;\n- for invoicing and, if applicable, for dunning procedures;\n- for purposes of permissible direct marketing;\n- to assert any claims against you.\nThe processing of personal data takes place on the occasion of your inquiry with us and is necessary for the processing of your order and for the fulfilment of obligations arising from the underlying contract for the stated purposes.\nThe collected personal data will be stored until the expiry of the statutory retention period for merchants (6, 8 or 10 years after the end of the calendar year in which the contractual relationship ended) and then deleted. This does not apply exceptionally if we are obliged to store data for a longer period due to tax or commercial retention obligations (pursuant to the HGB, StGB or AO) or if you have consented to a longer retention.",
+        "chapter3": "3. Transfer of data to third parties",
+        "chapter3Content": "A transfer of your personal data to third parties does not generally take place. Exceptions apply only insofar as this is necessary for the processing of contractual relationships with you. This includes, in particular, disclosure to service providers commissioned by us (so-called processors) or other third parties whose activities are necessary for the performance of the contract (e.g., shipping companies, health insurers or banks). The data disclosed may be used by the third parties only for the purposes stated.",
+        "chapter4": "4. Your rights as a data subject",
+        "chapter4Content": "As a person affected by the processing of data, you have various rights:\n- Right of withdrawal: You may withdraw consents you have given to us at any time. Data processing that is based on the withdrawn consent may no longer be carried out for the future.\n- Right of access: You may request information about the personal data we process about you. This applies in particular to the purposes of the data processing, the categories of personal data, where applicable the categories of recipients, the storage period, where applicable the origin of your data and, where applicable, the existence of automated decision-making including profiling and, where applicable, meaningful information about its details.\n- Right to rectification: You may request the correction of incorrect or the completion of your personal data stored with us.\n- Right to erasure: You may request the deletion of your personal data stored with us, provided that its processing is not necessary for the exercise of the right to freedom of expression and information, for compliance with a legal obligation, for reasons of public interest or for the establishment, exercise or defence of legal claims.\n- Right to restriction of processing: You may request the restriction of the processing of your personal data if you contest the accuracy of the data, the processing is unlawful but you oppose its deletion. You also have this right if we no longer need the data but you need them for the establishment, exercise or defence of legal claims. Furthermore, you have this right if you have objected to the processing of your personal data;\n- Right to data portability: You may request that we transmit to you the personal data you have provided to us in a structured, commonly used and machine-readable format. Alternatively, you may request the direct transfer of the personal data you have provided to us to another controller, insofar as this is technically feasible.\n- Right to lodge a complaint: You may lodge a complaint with the supervisory authority responsible for us, e.g., if you believe that we are processing your personal data unlawfully. The supervisory authority responsible for us is: Landesbeauftragter für den Datenschutz und die Informationsfreiheit Baden-Württemberg, Heilbronner Straße 35, 70191 Stuttgart, (Postal address: P.O. Box 10 29 32, 70025 Stuttgart); Telephone: 0711 6155410; E-mail: poststelle@lfdi.bwl.de.",
+        "chapter5": "5. Your right to object",
+        "chapter5Content": "If we process your personal data on the basis of a legitimate interest, you have the right to object to that processing. If you wish to exercise your right to object, a notification in text form is sufficient. You may therefore write to us or contact us by e‑mail. Our contact details can be found under point 1 of these data protection notices.",
+        "chapter6": "6. Data processing via our website",
+        "chapter6Content": "We use so‑called cookies in some areas of our website. Such file elements can identify your computer as a technical unit during your visit to this website in order to make it easier for you to use our offering.\nHowever, you usually have the option of configuring your web browser so that you are informed about the occurrence of cookies, so that you can allow or block them, or delete existing cookies.\nPlease use the help function of your web browser to obtain information on changing these settings. We point out that certain functions of our website may not work if you have disabled the use of cookies.\nCookies do not allow a server to read private data from your computer or data stored by another server. They do not harm your computer and do not contain viruses.\nWe base the use of cookies on Article 6(1)(f) GDPR: the processing is carried out to improve the functionality of our website. It is therefore necessary to protect our legitimate interests."        
     }
 }
