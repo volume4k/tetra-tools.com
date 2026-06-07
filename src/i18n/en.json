@@ -121,7 +121,12 @@
         "features": "Features",
         "contact": "Request Product",
         "notFound": "Product not found.",
-        "backHome": "Back to Home"
+        "backHome": "Back to Home",
+        "galleryLabel": "Image gallery",
+        "galleryControls": "Change images",
+        "galleryImage": "Show image",
+        "previousImage": "Previous image",
+        "nextImage": "Next image"
     },
     "contact": {
         "title": "Interested?",
