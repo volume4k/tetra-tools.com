@@ -8,12 +8,6 @@ export function renderDatenschutz(): string {
       <div class="container">
         <h1 id="datenschutz-title">${tr.datenschutz.title}</h1>
 
-        <h2>${tr.datenschutz.responsible}</h2>
-        <p style="white-space: pre-line;">${tr.datenschutz.responsibleContent}</p>
-
-        <h2>${tr.datenschutz.contactTitle}</h2>
-        <p>${tr.datenschutz.contactContent}</p>
-
         <h2>${tr.datenschutz.TOC}</h2>
         <p style="white-space: pre-line;">${tr.datenschutz.TOCContent}</p>
 
