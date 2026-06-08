@@ -14,9 +14,6 @@ export function renderImpressum(): string {
         <h2>${tr.impressum.contactTitle}</h2>
         <p style="white-space: pre-line;">${tr.impressum.contactContent}</p>
  
-        <h2>${tr.impressum.redContTitle}</h2>
-        <p style="white-space: pre-line;">${tr.impressum.redContContent}</p>
-
         <h2>${tr.impressum.taxIDTitle}</h2>
         <p style="white-space: pre-line;">${tr.impressum.taxIDContent}</p>
 
