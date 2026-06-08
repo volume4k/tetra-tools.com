@@ -22,7 +22,7 @@ export function renderContact(): string {
         </div>
 
         <!-- Klasse "btn--disabled" initial hinzugefügt -->
-        <a href="mailto:request@tetra-tools.com?subject=${encodeURIComponent(tr.contact.emailSubject)}" class="btn btn--primary btn--disabled" id="contact-cta">
+        <a href="mailto:tetratools@online.de?subject=${encodeURIComponent(tr.contact.emailSubject)}" class="btn btn--primary btn--disabled" id="contact-cta">
           ✉ ${tr.contact.cta}
         </a>
 

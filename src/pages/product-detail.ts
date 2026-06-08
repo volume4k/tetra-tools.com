@@ -96,7 +96,7 @@ export function renderProductDetail(productId: string): string {
 
             <div class="product-detail-cta">
               <!-- ID "contact-cta" und Klasse "btn--disabled" hinzugefügt -->
-              <a href="mailto:request@tetra-tools.com?subject=${encodeURIComponent(tr.contact.emailSubject + ' — ' + product.title)}" class="btn btn--primary btn--disabled" id="contact-cta">
+              <a href="mailto:tetratools@online.de?subject=${encodeURIComponent(tr.contact.emailSubject + ' — ' + product.title)}" class="btn btn--primary btn--disabled" id="contact-cta">
                 ✉ ${tr.productDetail.contact}
               </a>
             </div>
