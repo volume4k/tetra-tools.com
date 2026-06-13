@@ -4,22 +4,25 @@ import { navigate } from '../router.ts';
 /** Placeholder images for products */
 const productPatterns: Record<string, { images: string[] }> = {
   steckhilfe: {
-    images: ['/steckhilfe-1.png', '/steckhilfe-2.png', '/steckhilfe-3.png', '/steckhilfe-4.png'],
+    images: ['/steckhilfe-1.webp', '/steckhilfe-2.webp', '/steckhilfe-3.webp', '/steckhilfe-4.webp'],
   },
   tipphilfe: {
-    images: ['/tipphilfe-1.png', '/tipphilfe-2.png', '/tipphilfe-3.png'],
+    images: ['/tipphilfe-1.webp', '/tipphilfe-2.webp', '/tipphilfe-3.webp'],
   },
   tetrazange: {
-    images: ['/tetrazange-1.png', '/tetrazange-2.png', '/tetrazange-3.png', '/tetrazange-4.jpg'],
+    images: ['/tetrazange-1.webp', '/tetrazange-2.webp', '/tetrazange-3.webp', '/tetrazange-4.webp'],
   },
   hosenhaken: {
-    images: ['/hosenhaken-1.png', '/hosenhaken-2.jpg', '/hosenhaken-3.jpg'],
+    images: ['/hosenhaken-1.webp', '/hosenhaken-2.webp', '/hosenhaken-3.webp'],
   },
   pulloverhaken: {
-    images: ['/pulloverhaken-1.png', '/pulloverhaken-2.png', '/pulloverhaken-3.jpg', '/pulloverhaken-4.png'],
+    images: ['/pulloverhaken-1.webp', '/pulloverhaken-2.webp', '/pulloverhaken-3.webp', '/pulloverhaken-4.webp'],
   },
   stifthalter: {
-    images: ['/stifthalter-1.png', '/stifthalter-2.png'],
+    images: ['/stifthalter-1.webp', '/stifthalter-2.webp'],
+  },  
+  schuerze: {
+    images: ['/schuerze-01.webp', '/schuerze-02.webp', '/schuerze-03.webp', '/schuerze-04.webp'],
   },
 };
 
@@ -38,7 +41,7 @@ export function renderProductDetail(productId: string): string {
     `;
   }
 
-  const pattern = productPatterns[productId] || { images: ['/placeholder.jpg', '/placeholder.jpg', '/placeholder.jpg'] };
+  const pattern = productPatterns[productId] || { images: ['/placeholder.webp', '/placeholder.webp', '/placeholder.webp'] };
 
   const badge = 'badge' in product && product.badge
     ? `<span class="product-detail-badge">${product.badge}</span>`

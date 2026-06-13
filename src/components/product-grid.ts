@@ -5,27 +5,31 @@ import { navigate } from '../router.ts';
 const productPatterns: Record<string, { bg: string; label: string }> = {
   tetrazange: {
     bg: "--color-bg-alt",
-    label: '<img src="/tetrazange-1.png" alt="Tetra Zange" style="width: 100%; height: 100%; object-fit: contain;" />',
+    label: '<img src="/tetrazange-1.webp" alt="Tetra Zange" loading="lazy" style="width: 100%; height: 100%; object-fit: contain;" />',
   },
   steckhilfe: {
     bg: "--color-bg-alt",
-    label: '<img src="/steckhilfe-1.png" alt="Steckhilfe" style="width: 100%; height: 100%; object-fit: contain;" />',
+    label: '<img src="/steckhilfe-1.webp" alt="Steckhilfe" loading="lazy" style="width: 100%; height: 100%; object-fit: contain;" />',
   },
   hosenhaken: {
     bg: "--color-bg-alt", 
-    label: '<img src="/hosenhaken-1.png" alt="Hosenhaken" style="width: 100%; height: 100%; object-fit: contain;" />',
+    label: '<img src="/hosenhaken-1.webp" alt="Hosenhaken" loading="lazy" style="width: 100%; height: 100%; object-fit: contain;" />',
   },
   pulloverhaken: {
     bg: "--color-bg-alt",
-    label: '<img src="/pulloverhaken-1.png" alt="Pulloverhaken" style="width: 100%; height: 100%; object-fit: contain;" />',
+    label: '<img src="/pulloverhaken-1.webp" alt="Pulloverhaken" loading="lazy" style="width: 100%; height: 100%; object-fit: contain;" />',
+  },
+  schuerze: {
+    bg: "--color-bg-alt",
+    label: '<img src="/schuerze-01.webp" alt="Schürze" loading="lazy" style="width: 100%; height: 100%; object-fit: contain;" />',
   },
   tipphilfe: {
     bg: "--color-bg-alt",
-    label: '<img src="/tipphilfe-1.png" alt="Tipphilfe" style="width: 100%; height: 100%; object-fit: contain;" />',
+    label: '<img src="/tipphilfe-1.webp" alt="Tipphilfe" loading="lazy" style="width: 100%; height: 100%; object-fit: contain;" />',
   },
   stifthalter: {
     bg: "--color-bg-alt",
-    label: '<img src="/stifthalter-1.png" alt="Stifthalter" style="width: 100%; height: 100%; object-fit: contain;" />',
+    label: '<img src="/stifthalter-1.webp" alt="Stifthalter" loading="lazy" style="width: 100%; height: 100%; object-fit: contain;" />',
   }
 };
 
