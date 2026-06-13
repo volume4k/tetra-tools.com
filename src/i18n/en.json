@@ -47,7 +47,7 @@
             "title": "Tetrapliers",
             "shortDescription": "The original! Designed for catheterization (ISC), but versatile in use.",
             "description": "The Tetrapliers is a gripping aid specially developed for intermittent self-catheterization (ISC) by tetraplegics. It enables grasping and holding the catheter, as well as other objects in everyday life. From the kitchen to the workshop — the Tetrapliers is a versatile companion.",
-            "badge": "Patented",
+            "badge": "Patent DE000010022395A1",
             "features": [
                 "Enables precise gripping",
                 "Operated by hand lifter",
@@ -91,6 +91,20 @@
                 "Adjustable length",
                 "Robust construction"
             ]
+            },
+            {
+                "id": "schuerze",
+                "title": "ISC Apron",
+                "shortDescription": "Cloth to protect and stabilize a man's most important body part during catheterization.",
+                "description": "If you are disinfecting extra thoroughly, or if a hydrophilically coated catheter is still dripping, our ISC apron ensures that everything doesn't get soaked right away. To a certain extent, the ISC apron also supports your most important body part during catheterization so that it always points nicely upwards.",
+                "features": [
+                    "Different sizes available",
+                    "Moisture protection",
+                    "Material: Cotton with PU membrane",
+                    "Oeko-Tex certified material",
+                    "Boil-proof up to 95°C",
+                    "Tumble dryer safe"
+                ]
             },
             {
             "id": "stifthalter",

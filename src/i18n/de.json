@@ -47,7 +47,7 @@
                 "title": "Tetrazange",
                 "shortDescription": "Das Original! Entwickelt für's Kathetern (ISK), aber vielseitig einsetzbar.",
                 "description": "Die Tetrazange ist eine Greifhilfe, die speziell für den intermittierenden Selbstkatheterismus (ISK) von Tetraplegikern entwickelt wurde. Sie ermöglicht das Greifen und Halten des Katheters, aber auch anderer Gegenstände im Alltag. Von der Küche bis zur Werkstatt — die Tetrazange ist ein vielseitiger Begleiter.",
-                "badge": "Patentiert",
+                "badge": "Patent DE000010022395A1",
                 "features": [
                     "Ermöglicht präzises Greifen",
                     "Durch Handheber betätigt",
@@ -90,6 +90,20 @@
                     "Geeignet auch für dicke Pullover",
                     "Länge verstellbar",
                     "Robuste Konstruktion"
+                ]
+            },
+            {
+                "id": "schuerze",
+                "title": "ISK-Schürze",
+                "shortDescription": "Tuch zum Schutz und zur Stabilisierung des wichtigsten Körperteil des Mannes beim Kathetern.",
+                "description": "Wenn Du mal besonders gründlich desinfizierst, oder ein hydrophil beschichteter Katheter noch tropft, sorgt unsere ISK-Schürze dafür, dass nicht gleich alles durchnässt ist. Die ISK-Schürze stützt zu einem gewissen Grad auch noch Dein wichtiges Körperteil beim Kathetern, so dass er immer schön nach oben guckt.",
+                "features": [
+                    "Verschiedene Größen verfügbar",
+                    "Schutz vor Feuchtigkeit",
+                    "Material: Baumwolle mit PU-Membran",
+                    "Öko-Tex zertifiziertes Material",
+                    "kochfest bis 95°",
+                    "trochnergeeignet"
                 ]
             },
             {
