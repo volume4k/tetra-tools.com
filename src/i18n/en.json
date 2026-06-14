@@ -127,6 +127,18 @@
                 "Non-slip tip",
                 "Left and right versions available"
                 ]
+            },
+            {
+                "id": "radkappe",
+                "title": "Hubcaps",
+                "shortDescription": "Protects your caster wheel bearings from damage caused by collected hair",
+                "description": "We've all been there: front wheels become stiff because what feels like half a sweater has wrapped around the axle and presses into the bearings. Usually, the only solution left is replacing the bearings ... until the exact same problem returns a few weeks or months later. Our hubcaps ensure that the bearings are protected from hair. This significantly extends their lifespan.",
+                "badge": "COMING SOON",
+                "features": [
+                    "Protects bearings from hair",
+                    "Fits FrogLeg and STAREC caster wheels",
+                    "Replaces standard spacers"
+                ]            
             }
         ]
     },
