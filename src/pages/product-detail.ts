@@ -24,6 +24,9 @@ const productPatterns: Record<string, { images: string[] }> = {
   schuerze: {
     images: ['/schuerze-01.webp', '/schuerze-02.webp', '/schuerze-03.webp', '/schuerze-04.webp'],
   },
+  radkappe: {
+    images: ['/radkappe-1.webp', '/radkappe-2.webp'],
+  }
 };
 
 export function renderProductDetail(productId: string): string {

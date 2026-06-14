@@ -30,6 +30,10 @@ const productPatterns: Record<string, { bg: string; label: string }> = {
   stifthalter: {
     bg: "--color-bg-alt",
     label: '<img src="/stifthalter-1.webp" alt="Stifthalter" loading="lazy" style="width: 100%; height: 100%; object-fit: contain;" />',
+  },
+   radkappe: {
+    bg: "--color-bg-alt",
+    label: '<img src="/radkappe-1.webp" alt="Radkappe" loading="lazy" style="width: 100%; height: 100%; object-fit: contain;" />',
   }
 };
 

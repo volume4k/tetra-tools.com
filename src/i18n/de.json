@@ -102,8 +102,8 @@
                     "Schutz vor Feuchtigkeit",
                     "Material: Baumwolle mit PU-Membran",
                     "Öko-Tex zertifiziertes Material",
-                    "kochfest bis 95°",
-                    "trochnergeeignet"
+                    "Kochfest bis 95°",
+                    "Trochnergeeignet"
                 ]
             },
             {
@@ -124,9 +124,21 @@
                 "shortDescription": "Universelle Tipphilfe für Computertastaturen und andere Tasten.",
                 "description": "Die Tipphilfe ermöglicht es Personen ohne Fingerfunktion, eigenständig auf einer Standard-Tastatur zu tippen. Die Tipphilfe wird einfach an die Hand gesteckt und los geht's ...!",
                 "features": [
-                    "rutschfeste Spitze",
+                    "Rutschfeste Spitze",
                     "Linke und rechte Version verfügbar"
                 ]
+            },
+            {
+                "id": "radkappe",
+                "title": "Radkappen",
+                "shortDescription": "Schützt die Lager deiner Lenkräder vor der Zerstörung durch aufgesammelte Haare",
+                "description": "Wer kennt das nicht: Die Vorderräder drehen sich schwer, weil sich gefühlt ein halber Pullover um die Achse gewickelt hat und in die Lager drückt. Meist hilft dann nur noch ein Tausch der Lager ... bis sich nach wenigen Wochen bis Monaten wieder das gleiche Problem einstellt. Unsere Radkappen sorgen dafür, dass die Lager vor den Haaren geschütz werden. Die Lebensdauer wird dadurch deutlich erhöht.",
+                "badge": "BALD ERHÄLTLICH",
+                "features": [
+                    "Schutz der Lager vor Haaren",
+                    "Passend für FrogLeg und STAREC Lenkräder",
+                    "Ersetzen die Standard-Abstandshülsen"
+                ]            
             }
         ]
     },
