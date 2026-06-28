@@ -39,8 +39,11 @@
         ]
     },
     "products": {
-         "title": "Our Products",
+        "title": "Our Products",
         "viewDetails": "View Details",
+        "piece": "piece",
+        "pieces": "pieces",
+        "pair": "pair",
         "items": [
              {
             "id": "tetrazange",
@@ -95,6 +98,7 @@
             {
                 "id": "schuerze",
                 "title": "ISC Apron",
+                "pieces": "pieces",
                 "shortDescription": "Cloth to protect and stabilize a man's most important body part during catheterization.",
                 "description": "If you are disinfecting extra thoroughly, or if a hydrophilically coated catheter is still dripping, our ISC apron ensures that everything doesn't get soaked right away. To a certain extent, the ISC apron also supports your most important body part during catheterization so that it always points nicely upwards.",
                 "features": [
@@ -131,6 +135,7 @@
             {
                 "id": "radkappe",
                 "title": "Hubcaps",
+                "pieces": "pair",
                 "shortDescription": "Protects your caster wheel bearings from damage caused by collected hair",
                 "description": "We've all been there: front wheels become stiff because what feels like half a sweater has wrapped around the axle and presses into the bearings. Usually, the only solution left is replacing the bearings ... until the exact same problem returns a few weeks or months later. Our hubcaps ensure that the bearings are protected from hair. This significantly extends their lifespan.",
                 "badge": "COMING SOON",

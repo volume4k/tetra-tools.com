@@ -41,6 +41,9 @@
     "products": {
         "title": "Unsere Produkte",
         "viewDetails": "Details",
+        "piece": "Stück",
+        "pieces": "Stück",
+        "pair": "Paar",
         "items": [
             {
                 "id": "tetrazange",
@@ -95,6 +98,7 @@
             {
                 "id": "schuerze",
                 "title": "ISK-Schürze",
+                "pieces": "Stück",
                 "shortDescription": "Tuch zum Schutz und zur Stabilisierung des wichtigsten Körperteil des Mannes beim Kathetern.",
                 "description": "Wenn Du mal besonders gründlich desinfizierst, oder ein hydrophil beschichteter Katheter noch tropft, sorgt unsere ISK-Schürze dafür, dass nicht gleich alles durchnässt ist. Die ISK-Schürze stützt zu einem gewissen Grad auch noch Dein wichtiges Körperteil beim Kathetern, so dass er immer schön nach oben guckt.",
                 "features": [
@@ -131,6 +135,7 @@
             {
                 "id": "radkappe",
                 "title": "Radkappen",
+                "pieces": "Paar",
                 "shortDescription": "Schützt die Lager deiner Lenkräder vor der Zerstörung durch aufgesammelte Haare",
                 "description": "Wer kennt das nicht: Die Vorderräder drehen sich schwer, weil sich gefühlt ein halber Pullover um die Achse gewickelt hat und in die Lager drückt. Meist hilft dann nur noch ein Tausch der Lager ... bis sich nach wenigen Wochen bis Monaten wieder das gleiche Problem einstellt. Unsere Radkappen sorgen dafür, dass die Lager vor den Haaren geschütz werden. Die Lebensdauer wird dadurch deutlich erhöht.",
                 "badge": "BALD ERHÄLTLICH",

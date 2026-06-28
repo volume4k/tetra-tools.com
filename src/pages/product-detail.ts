@@ -1,5 +1,6 @@
 import { t } from '../i18n/i18n.ts';
 import { navigate } from '../router.ts';
+import { productPrices } from '../components/product-grid.ts';
 
 /** Placeholder images for products */
 const productPatterns: Record<string, { images: string[] }> = {
@@ -50,6 +51,11 @@ export function renderProductDetail(productId: string): string {
     ? `<span class="product-detail-badge">${product.badge}</span>`
     : '';
 
+  let priceText = productPrices[productId] || '10 €';
+  priceText = priceText.replace(/\{piece\}/g, tr.products.piece || 'piece');
+  priceText = priceText.replace(/\{pieces\}/g, tr.products.pieces || 'pieces');
+  priceText = priceText.replace(/\{pair\}/g, tr.products.pair || 'pair');
+
   const featuresList = product.features
     .map((f) => `<li>✓ ${f}</li>`)
     .join('');
@@ -87,6 +93,7 @@ export function renderProductDetail(productId: string): string {
           <div class="product-detail-info">
             ${badge}
             <h1 id="product-detail-title">${product.title}</h1>
+            <h3 id="product-price" class="product-detail-price" style="white-space: pre-line;">${priceText}</h3>
             <p>${product.description}</p>
 
             <h3 style="margin-block-start: var(--space-xl); margin-block-end: var(--space-md);">${tr.productDetail.features}</h3>
