@@ -37,6 +37,17 @@ const productPatterns: Record<string, { bg: string; label: string }> = {
   }
 };
 
+export const productPrices: Record<string, string> = {
+  tetrazange: '185 €',
+  steckhilfe: '28 €',
+  hosenhaken: '33 €',
+  pulloverhaken: '25 €',
+  schuerze: '4 €\n18 € (5 {pieces})\n32 € (10 {pieces})',
+  tipphilfe: '15 € (1 {piece})\n28 € (1 {pair})',
+  stifthalter: '32 €',
+  radkappe: '35 € (2 {pair})',
+};
+
 function productPlaceholder(id: string): string {
   const p = productPatterns[id] || { bg: '--color-bg-alt', label: '?' };
   return `

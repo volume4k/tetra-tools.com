@@ -677,6 +677,16 @@ a:focus-visible {
     margin-block-end: var(--space-lg);
 }
 
+/* Price spacing: make price sit visually centered between title and description */
+.product-detail-price {
+    margin-block-start: var(--space-xs);
+    margin-block-end: var(--space-lg);
+    font-weight: 700;
+    color: inherit;
+}
+
+/* Removed .product-card-price — grid price uses default spacing now */
+
 .product-detail-cta {
     margin-block-start: var(--space-2xl);
 }
