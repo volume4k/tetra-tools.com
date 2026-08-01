@@ -26,7 +26,7 @@ const productPatterns: Record<string, { images: string[] }> = {
     images: ['/schuerze-01.webp', '/schuerze-02.webp', '/schuerze-03.webp', '/schuerze-04.webp'],
   },
   radkappe: {
-    images: ['/radkappe-1.webp', '/radkappe-2.webp'],
+    images: ['/radkappe-1.webp', '/radkappe-2.webp', '/radkappe-3.webp', '/radkappe-4.webp'],
   }
 };
 
